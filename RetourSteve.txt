@@ -1,0 +1,33 @@
+Dossier : mes projets 
+
+FAIRE LE LIEN ENTRE LES COMPETENCES A VALIDER
+ET LES PROJETS DANS LEQUEL JE PEUX LES VALDER
+
+oral : présenté l'Xp 
+résumé des projets et lien avec blocs
+
+Bloc 1, 2 et 4 à préparer
+
+management de projet : planning
+Comment on avance en méthode Agile
+Comment on gére les bugs (gestion des urgences ...)
+
+présentation : du groupe : organigramme
+
+Architecture du SI (échange entre les différents métier)
+Cartographie de l'entreprise
+
+faire le lien avec les blocs et expériences !!
+bloc 3 DATA = > MSPR
+
+Environnement = Ausy
+Mission chose 
+
+bloc 1 : que sur Ausy !!
+pour rédaction cahier des charges : voir avec le PO ou Laurent comprendre  comment rédaction cahier des charges
+veille techno : projet MSAL => disucssion avec Hanis et Laurent
+analyse stratégie : organigramme de Ausy
+cartographie SI : => demande une à Amine
+
+bloc 4 dev : demander ce qu'il y a en intégration continue 
+avec critique et comment on pourrait l'améliorer

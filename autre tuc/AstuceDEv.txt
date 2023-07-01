@@ -1,0 +1,23 @@
+package sql (procédure stockée pour perf et éviter de tout recharger lors de modif)
+utiliser les séquences (auto-inc avec gestion de l'id exacte) + fonc pour recup infos
+
+Fonctionnement développement:
+
+commencement US -> dev
+commit et push 
+checkout, PULLLLL , cherry-pick, push
+déploiement DEV  "publier" VS accepter certif
++ création de Test demande au Scrum un testeur
+passé en Test DEV 
+
+Déploiement local
+React -> npm install -> npm start => bundle
+Frontend use bundle -> compile webclient sln -> appel au backend
+Backend : package Nuget -> propriété du webapi -> IIS Local httpSSSSSS
+-> compil 
+
+Mappage : ajout colonne : -> modelDVI : 
+ajout d'un paramètre dans le "Complex Types" liés à la table
+Regarder dans "Methods" (dans Propriétés) lesquelles ont pour "Return type" le complex types modifiés.
+ET donc changer tous les procédures qui ont besoin d'être changées
+

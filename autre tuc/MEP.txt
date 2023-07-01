@@ -1,0 +1,34 @@
+Pull Request d'une feature sur la master
+nouvelle branche INTO master
+ajout reviewer
+
+modifier l'avion :
+application modifié (back-front)
+pkg modifiés
+script à ajouter avec l'info du nom
+page de la mep: 
+edit -> ajouter les infos dans la colonne
+copie des pgk de prod 
+
+vérifier contenu des différentes branch, files ...
+ms build : compilateur ddl (service windows de compilation)
+Vérifié les modifs et les commits
+valider PR (squash commit, 1ère case cochés)
+
+Chercher le dernier dossier de MEP:
+ ajout de l'appli avec les tâches rélatives 
+ ajouter le nom du dev
+
+retour en local: pull (gestion conflits si besoin ...)
+test en local: compilation, nugets, npm ...
+en front npm run prod (importer config prod en local)
+test l'application en local (!! connecter sur la Bdd dev pas sur la prod)
+
+comparer les deux packages de la dev et la prod (winMerge)
+rebuild
+compiler en release les projets (VS)
+PUBLIER en PREPROD (mode release) d'abord !!
+
+Test en preprod 
+pull de master 
+publication en production des applications

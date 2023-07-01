@@ -1,0 +1,15 @@
+React Hook
+nouvelle façon de modifier l'origine du store :
+créer un state pour le composant parent
+lorsque l'on modifie le fils on appelle un fct du père qui altère la propriété d'une valeur du fils
+
+babel : transpiler de react  (npm start -> traduction pour le serveur web)
+
+dispatch met à jour le store
+
+reducer  -> slice (mis à jour du state)
+
+Aujourd'hui plus facilement gérer toutes les chose automatiques (reducer, dispatch didamount...)
+Nouvelle façon
+
+

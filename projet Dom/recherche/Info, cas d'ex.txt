@@ -1,0 +1,20 @@
+le flux client perceval=> perceval qui indique que le dossier est fermé. Créé l'action de sortie sur la fiche CRM
+récupérer la date de fin depuis Lancelot 
+
+voir quel contrôle mettre dans le flux client 
+
+dans la page des actions commerciales, rajouter les boutons en fonction du statut 
+pour les contacts clos, le bouton "perceval" pose soucis
+
+quand on fait une entrée "domicile" qu'est ce qu'on fait sur les autres orientations ?
+- les autres orientations doivent rester active
+- pouvoir réorienter le client si besoin sur une autre résidence et une autre agence 
+-
+
+Modification des statuts :
+- entrée : tous bloqué sauf la réorientation
+- admission autres résidences : toutes les actions sauf admission sur les résidences mais admission possible pour les agences avec un message d'alerte 
+- s'il est admis autres résidences et qu'il a une visite, que faire ????
+
+
+S'il y a des actions actifs dans les autres orientations (agence et résidence) et que la personne passe en admis, les actions des autres résidences doivent rester actif 
