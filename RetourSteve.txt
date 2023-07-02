@@ -31,3 +31,6 @@ cartographie SI : => demande une à Amine
 
 bloc 4 dev : demander ce qu'il y a en intégration continue 
 avec critique et comment on pourrait l'améliorer
+
+
+Q : A2C8  schéma BPM, processus métier d'un cas congrès ? ou c'est en général ?

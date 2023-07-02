@@ -1,0 +1,15 @@
+Organigramme Ausy l'ancien si possible
+
+Besoin de la PSSI : avec info sur l'accès aux données (droits), l'intégrité (save, repair), disponibilité (SLA), gestion risques ?
+
+SWOT sur AUSY (voire Domusvi si motivé)
+
+Env éco, l’activité métier de l’entreprise, les parties prenantes, la gestion stratégie, opérationnelle et techno du S.I., le SI et les acteurs
+
+
+Accord de niveaux de services en général ? Et avec Domusvi ? Quels sont les critères de choix pour Domusvi ?
+
+Projet RSE/Green à Ausy ? 
+
+S'ils ont des schéma de management processus ?
+
