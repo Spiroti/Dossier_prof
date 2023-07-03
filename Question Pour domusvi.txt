@@ -1,4 +1,16 @@
-Fonctionnement de Azure parti intégration et déploiement
+Où est le code, la bdd et les docs ? (serveurs internes, cloud, replika ?)
+
+Fonctionnement de Azure : parti intégration et déploiement
+
+Y a-t-il un process pour l'intégration (ou une doc surtout, sinon je le fais moi) ?
+
+Plus d'info sur la partie test, y a-t-il un plan ? schéma Fonctionnel ? schéma intégration ?
+
+
+(Question Hors sujet)
+Norme d'architecture ? Nugets ? Nugets Domusvi ? Définir le portal comme des microservices ?
+
+S'ils ont des schéma de management processus ?
 
 Savoir comment est gérer les TMA et VSTS ?? S'il y a un processus ?
 
@@ -8,13 +20,10 @@ Gérer l'agile  Avec Hana
 
 
 
-
 Besoin de la PSSI : avec info sur l'accès aux données (droits), l'intégrité (save, repair), disponibilité (SLA), gestion risques ?
-
 
 Accord de niveaux de services avec Ausy ? Quels sont les critères de choix pour Domusvi ?
 
-Projet RSE/Green à Domusvi ? 
+Projet RSE/Green IT à Domusvi ? 
 
-S'ils ont des schéma de management processus ?
 

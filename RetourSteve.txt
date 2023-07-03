@@ -34,3 +34,4 @@ avec critique et comment on pourrait l'améliorer
 
 
 Q : A2C8  schéma BPM, processus métier d'un cas congrès ? ou c'est en général ?
+Q : A5C4 c-a-d ?? Coder une appli en respectant les attentes en termes de techno ?
