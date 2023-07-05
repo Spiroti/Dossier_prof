@@ -1,0 +1,117 @@
+Obj année Qualite et CI continous integration
+
+sauvegarde 
+
+les repositories du code sur cloud services Azure DevOps sécu avec Azure (organiser par projet)
+L'ensemble des répos, proejt qui définit les rôles
+
+Chaque projet peut configurer chaque utilisateurs (Azure peut définir des Teams, des groupes, des permissions
+
+Tenant = Locataire : chaque entreprise a un compte (gestion depuis le compte)
+Connection avec le Tenant : gestion rôles
+
+BDD save par l'infra PRA + PCA = 2 datacenter séparé de 10 km
+baie Oracle interne  dans les serveurs
+GED solution application interne save classique des serveurs (cloud avec Office)
+
+Intégration (CI/CD) géré par Azure DEv Ops (pas de toujours piaplines dans Azure)
+fichier azure-pipelines.yml = job (ensemble de job, build)
+il ya des templates de Build (des templates peut en appeler d'autres) : héritage 
+	étape : build, job avec paramètre envoyer au templates (fichier CRM 2 templates = 2 job)
+	compression et envoyé au build (type ms-builder compilater C#)
+il ya un repos aml-tooling : moule pour les autres build
+	gestion des paramètres
+	job = (peut avoir plusieurs tasks), 
+	task : avec des Nugets 
+	menu pour ajouter une task (Npm pour dl, FTP pour récup un fichier)
+	le build soit similaire au visual studio (nugets, dépendences)
+	présence d'un magasin pour les nugets et dépendences
+	présence de SonarQube (héberger en interne)
+	tout le build est chez azure (mais possibilité en promise)
+	Domus a une machine de build (machine Windowns que pour le build à chaque intégration)
+		agent Azure dans la machine (avec des slots (gére le nb de build simultané)) 6 car 6 licences dev Azure
+		envoie sur la machine pour le build avec les mêmes config que nos machines (VS pour ms-build)
+		facilite la déploiement
+	Déploiement jusqu'en DEv (mais pas en Prod car pb avec package Sql : gestion des codes non re-buildable (on Create 1 seule fois)
+	Il faudrait un Toad sur la machine (pb multi instruction)
+	Renvoie du build une fois finie (sur Azure)
+Info complémentaire AML TOlling sur la doc Wiki 
+
+Les pipelines déclenchés code sur une branche (onglets pipeline Azure)
+Détails des jobs (compile des sln) avec vus sur les tasks
+	dl des nugets (donc info sur les Nugets Nugets.Config)
+	prépa et exé de Sonar
+		publie sur la QA de sonar (interne pour récup) et fait un Compte-rendu
+	run des unit tests
+Si une Task failed = build failed 
+
+Déploiement avec des env (plus de mdp dans le web.config)  (serveur IIS) validation (pas mis)
+	si branche develop : déploiement sur le serveur dev IIS
+	mis de trigger
+	
+
+publication depuis VS : 
+		profil = fichier dans properties properties/PublishProfiles/DEV-intranet
+			définition possible aussi par User
+		ms-deploye install sur serveur IIS -> à l'écoute sur le port avec requête de déploiement
+		Déploiement ensuite sur le serveur ce qui est dans le bin/
+			pour ajouter dans le bin paramétrage de "copier dans le rep de sortie"
+déploiement possible soit par bin/
+		     soit par package envoie aux dev deploiement -> sur IIS installer package
+
+architecture recherche "Starter"
+	GED : wiki/Stater developer staterkit
+
+Nugets Domus : projet Frameworks avec un repo 
+	début un peu anarchique (tt le monde m'était son code)
+	du coup pas de code, mettre que des outils (pas des bouts de code)
+	architecture : dossier avec gestion des librairies (bibliothèques de classes)
+		couche dll mettre des classes (name = Domusvi.Framework.XXXX)
+			ex: Helper (mettre un classe/fonction réutilisable)
+			    Security.JWT.Decode(string) : Nuget qui utilise un autre Nuget pour décoder
+			    Decode token expiration
+			AAD console v2.5.0.0 (auj on peut déchiffrer la date_expira)
+		Pour utiliser dll ajouter depuis le Nuget (manque juste le "using" pour importer)
+	Nuget = fichier .nupkg  package avec des fichiers et la config
+		zip avec des info sur les infos les paramètres... d'autres dll
+			+ les fichiers codes
+	avec une extension pour la compilation gérer les Nugets
+		(peut mettre des dépendences (aspose à besoin de Aspose Licence)
+	pour gérer la version gérer manuellement
+		récup après décompilation on récup les num de dll
+	partager des liens
+	lors de compilation va avoir num de versions et extaire le num et recupérer la version du dll
+	génrer un fichier .cmd qui push sur le serveur distant
+		manière économique (sinon obliger d'avoir un héberger Nuget)
+		Sur Azure c'est possible (mais soucis)
+		Migration aussi 
+	Si un Nuget à des soucis tout le portal bug (sensible surtout niveau sécu donc test poussés)
+	pour les tester en local il va chercher dans un dossier local
+			suffit donc de déposer les fichiers à jour dans le dossier
+		
+
+Power BI :
+	jeu de données : sources de BDD interne (portal et autres)
+	IMP : notion de temps de la donnée et de la forme
+	notion de temps toujours imp en Big Data
+		le snapshot pour la récup au temps T
+		sur plusieurs T, vision de l'évolution
+		DataWareHouse : jeu de données en fct T
+			-> envoie sur SGBD mais pas bdd relationnel
+			croissement des données en fct du temps
+Entreprise DataDriven (gérer les Data qu'ils on remontés)
+
+Data protecteur officer général : politique "tout censuré" attention à toutes les sorties
+logiciel avec "sentinelOne" bcp de justificatif, bcp de sécurité,
+	politique limitation de shadow IT car de fuite de données (OuiTransfert)
+	HDS (heber donnée santé)
+	Pas de normes ISO
+	RSI 
+
+RSE base de domusvi (affiche sur a machine à café)
+	Dans l'activité, aspect de "survie" portée par la direction
+	module de formation de RSE
+	confidentiel : rapport RSE
+	Auj presque 0% d'entreprise actuel si pas 300% RSE
+pas Green IT vraiment mais du Green (recyclage des couche)
+
