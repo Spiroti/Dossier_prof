@@ -1,0 +1,24 @@
+Créé en 1983 en France, DomusVi est aujourd’hui l'un des leaders de l'habitat, des services et des soins dédiés aux personnes âgées dans le monde...
+•	Présent dans 8 pays : France, Espagne, Portugal, Allemagne, Pays-Bas, Irlande, Chili et Uruguay
+•	Près de 500 résidences médicalisées et résidences services, dont plus de 240 en France
+•	Plus de 100 agences d’aide à domicile, dont 60 en France
+•	Plus de 50 000 salariés, dont 14 400 en France
+
+DomusVi propose des services d’accueils et d’aides aux seniors : maisons de retraite médicalisées, résidences seniors, aide et accompagnement à domicile.
+Domusvi propose aux établissments d’accueil et de soin un site permettant la gestion de contrats, des clients, des finances, les Ressources Humaines, liaisons avec des organismes publics…
+Le projet a pour but la maintenance du site et le développement de nouvelles fonctionnalités pour répondre aux besoins de établissements utilisant ce dernier.
+Equipe composé 8 développeurs, 1 scrum master, un directeur technique, un consultant, un Product Owner, un Qualité testeur et plusieurs équipe de testeur fonctionnelle.
+• Mise à jour de la sécurité du site, connexion à une API, ajout d’éléments de BDD, déploiement sur environnements, mise à jour de l’UX Design,
+• Projet comportant une cinquantaine d’applications, requête ajax, requête GET et POST Gestion de priorités.
+Environnement technique :
+C#, React JS, JS, .NET framework, Visual studio, WebService, ISS, Azure DEVOPS, Oracle, PL-SQL, Windows, Agile Scrum, architecture Repository, Git
+Tiré du fichier détail de mission
+
+Cinq piliers structurent le Groupe depuis sa création. Ces valeurs animent chacun de nos collaborateurs au quotidien. Ainsi, nous sommes persuadés que…
+… expertise, humanité et bienveillance sont indispensables à votre bien-être, celui de vos proches et celui de nos équipes : Savoir Prendre Soin
+… vous comprendre, vous écouter, c’est savoir répondre et anticiper vos attentes : Le Sens de l'Autre
+… cultiver un état d’esprit positif, simple et authentique permet de construire des relations fortes et durables : La Sincérité des Émotions
+… croire en l’autre et être transparent est le premier marqueur de l’engagement, d’un respect mutuel au service du meilleur : La Confiance Partagée
+… innover et s’adapter en permanence est la seule façon de répondre à vos besoins et aux grands enjeux sociétaux de demain : L'Esprit Pionnier
+Le Groupe DomusVi a pour mission d’offrir la meilleure qualité de services à ses clients tout en se conformant aux principes éthiques s'appliquant à son activité propre, à la conduite des affaires et en adoptant un comportement socialement responsable vis-à-vis de l'ensemble de ses parties prenantes.
+Notre Charte éthique de conduite de l'entreprise invite chacun des collaborateurs à se poser les bonnes questions, dans le cadre de ses fonctions, pour agir au quotidiennement de manière responsable. Elle a vocation à aider chacun à faire preuve de discernement et à adopter les comportements éthiques appropriés et socialement responsables, reflets de nos valeurs et de nos engagements, indispensables à la création de valeur durable.
