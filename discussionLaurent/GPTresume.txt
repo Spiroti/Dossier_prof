@@ -1,0 +1,27 @@
+Le fichier azure-pipelines.yml représente un ensemble de jobs (compilation) qui sont compressés et envoyés au build à l'aide de MS-Builder, un compilateur C#.
+Il existe un repos git appelé AML-Tooling qui sert de modèle pour les autres builds. Ce repos permet l’exécution des actions à faire à partir de paramètres. Il se compose de « jobs » qui eux-mêmes se compose de « tasks ». Différentes types peuvent être ajoutées à partir du magasin de dépendances Nugets (paquets logiciels), telles que Npm pour le téléchargement ou FTP pour la récupération de fichiers.
+Le processus de build ressemble à Visual Studio, avec des NuGets et des dépendances. Il existe un magasin pour les NuGets et les dépendances. 
+Les NuGets sont des fichiers au format « .nupkg » qui contiennent des fichiers et des configurations  pouvant inclure d'autres DLL et des fichiers de code. (explication DDL)
+SonarQube, un outil d'analyse statique du code, est utilisé et hébergé en interne.
+Le build est similaire à Visual Studio, avec des NuGets et des dépendances. Il y a un magasin pour les NuGets et les dépendances.
+Tout le processus de build est effectué sur Azure, mais il peut également être réalisé en local.
+DomusVi dispose d'une machine de build dédiée, qui est une machine Windows utilisée uniquement pour le build à chaque intégration. Un agent Azure est installé sur cette machine, avec des slots pour gérer le nombre de builds simultanés. Il y a 6 licences Azure DevOps disponibles.
+Le déploiement est facilité grâce à cette infrastructure.
+Il existe des templates de build qui peuvent hériter d'autres templates. Les étapes comprennent la compilation (build) et les jobs avec des paramètres envoyés aux templates.
+Les pipelines sont déclenchés par l’ajout de code sur une branche, et il est possible de visualiser les détails des jobs (compilation des fichiers de solution) avec les tâches associées.
+La préparation et l'exécution de SonarQube sont réalisées, suivies d'une publication sur la QA de SonarQube (interne) avec un compte-rendu.
+Les tests unitaires sont exécutés, et si une tâche échoue, le build échoue également.
+SonarQube est utilisé et hébergé en interne.
+Le déploiement s'effectue jusqu'en environnement de développement (Dev), mais pas en production en raison de problèmes liés au package SQL et à la gestion du code non reconstruisible (création d'un seul code). Une machine Toad serait nécessaire pour résoudre les problèmes liés aux instructions multiples.
+Une fois le build terminé, il est renvoyé sur Azure.
+Le déploiement se fait sur des serveurs IIS avec validation (non faites dans notre cas). Le déploiement peut être déclenché selon la branche, par exemple, si c'est la branche "develop", le déploiement s'effectue sur le serveur de développement IIS.
+La publication depuis Visual Studio se fait en utilisant un profil (fichier) dans le dossier Properties/PublishProfiles/DEV-intranet. Il est possible de définir d'autres profils par utilisateur.
+MS Deploy (compilateur C#) est installé sur le serveur IIS et est à l'écoute sur un port pour les requêtes de déploiement. Le déploiement se fait ensuite sur le serveur en utilisant les fichiers présents dans le dossier bin/. Il est possible de copier les fichiers dans le répertoire de sortie.
+Le déploiement peut être effectué soit à partir du dossier bin/, soit à partir d'un package qui est ensuite installé sur le serveur IIS.
+L'architecture utilise la recherche "Starter" et le GED est documenté dans le Wiki sous "Starter Developer Starterkit".
+Les NuGets spécifiques à DomusVi sont gérés dans un projet Frameworks avec un référentiel. Au départ, tout pouvait être ajoutés mais rapidement le projet est devenu désordonnée. Il a donc été décidé de ne mettre que des outils (et non des bouts de code) dans les bibliothèques de classes. 
+Les bibliothèques de classes sont organisées en dossiers, avec une convention de nommage spécifique (Domusvi.Framework.XXXX). Il y a des classes telles que Helper pour des fonctions réutilisables et Security.JWT.Decode pour le décodage des jetons de sécurités.
+Certains NuGets utilisent d'autres NuGets pour fonctionner, par exemple, AAD Console v2.5.0.0 pour le déchiffrement de la date d'expiration des jetons.
+Pour utiliser ces DLL, il suffit de les ajouter via NuGet en ajoutant une référence (using) dans le code.
+La gestion des versions se fait manuellement en extrayant les numéros de version des DLL. Un fichier au format .cmd est généré pour effectuer le push sur le serveur distant de manière économique. Cette méthode permet de partager des liens vers les NuGets.
+Lors de la compilation, les versions des NuGets sont vérifiées et les fichiers à jour sont placés dans un dossier local pour les tester en local.
