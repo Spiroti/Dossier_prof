@@ -1,0 +1,788 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAGJ2+AsRBDrJCc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJ2+AsQxDpo8U="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGJ2+AsRBDsJiI=",
+									"_parent": {
+										"$ref": "AAAAAAGJ2+AsRBDrJCc="
+									},
+									"model": {
+										"$ref": "AAAAAAGJ2+AsQxDpo8U="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ2+AsRBDtdfo=",
+											"_parent": {
+												"$ref": "AAAAAAGJ2+AsRBDsJiI="
+											},
+											"visible": false,
+											"font": "Arial;24;0",
+											"left": 112,
+											"top": 144,
+											"height": 24
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ2+AsRBDu7dg=",
+											"_parent": {
+												"$ref": "AAAAAAGJ2+AsRBDsJiI="
+											},
+											"font": "Arial;24;1",
+											"left": 37,
+											"top": 230,
+											"width": 1287,
+											"height": 24,
+											"text": "Fonctionnel"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ2+AsRBDv2MA=",
+											"_parent": {
+												"$ref": "AAAAAAGJ2+AsRBDsJiI="
+											},
+											"visible": false,
+											"font": "Arial;24;0",
+											"left": 112,
+											"top": 144,
+											"width": 136.01953125,
+											"height": 24,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ2+AsRBDw1rk=",
+											"_parent": {
+												"$ref": "AAAAAAGJ2+AsRBDsJiI="
+											},
+											"visible": false,
+											"font": "Arial;24;0",
+											"left": 112,
+											"top": 144,
+											"height": 24,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;24;0",
+									"left": 32,
+									"top": 223,
+									"width": 1297,
+									"height": 36,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGJ2+AsRBDtdfo="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGJ2+AsRBDu7dg="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGJ2+AsRBDv2MA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGJ2+AsRBDw1rk="
+									}
+								}
+							],
+							"font": "Arial;24;0",
+							"containerChangeable": true,
+							"left": 32,
+							"top": 208,
+							"width": 1297,
+							"height": 345,
+							"nameCompartment": {
+								"$ref": "AAAAAAGJ2+AsRBDsJiI="
+							}
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAGJ2+p3DxFzRx4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ebeb69",
+							"font": "Arial;13;0",
+							"left": 48,
+							"top": 256,
+							"width": 193,
+							"height": 273
+						},
+						{
+							"_type": "UMLPackageView",
+							"_id": "AAAAAAGJ299bbBCzLPU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJ299bbBCxHJ4="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGJ299bbBC088I=",
+									"_parent": {
+										"$ref": "AAAAAAGJ299bbBCzLPU="
+									},
+									"model": {
+										"$ref": "AAAAAAGJ299bbBCxHJ4="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ299bbBC1Szo=",
+											"_parent": {
+												"$ref": "AAAAAAGJ299bbBC088I="
+											},
+											"visible": false,
+											"font": "Arial;24;0",
+											"left": -272,
+											"top": -240,
+											"height": 24
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ299bbBC2tog=",
+											"_parent": {
+												"$ref": "AAAAAAGJ299bbBC088I="
+											},
+											"font": "Arial;24;1",
+											"left": 37,
+											"top": 38,
+											"width": 1287,
+											"height": 24,
+											"text": "Métier"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ299bbBC3qPg=",
+											"_parent": {
+												"$ref": "AAAAAAGJ299bbBC088I="
+											},
+											"visible": false,
+											"font": "Arial;24;0",
+											"left": -272,
+											"top": -240,
+											"width": 136.01953125,
+											"height": 24,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGJ299bbBC4gGU=",
+											"_parent": {
+												"$ref": "AAAAAAGJ299bbBC088I="
+											},
+											"visible": false,
+											"font": "Arial;24;0",
+											"left": -272,
+											"top": -240,
+											"height": 24,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;24;0",
+									"left": 32,
+									"top": 31,
+									"width": 1297,
+									"height": 36,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGJ299bbBC1Szo="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGJ299bbBC2tog="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGJ299bbBC3qPg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGJ299bbBC4gGU="
+									}
+								}
+							],
+							"font": "Arial;24;0",
+							"containerChangeable": true,
+							"left": 32,
+							"top": 16,
+							"width": 1297,
+							"height": 177,
+							"nameCompartment": {
+								"$ref": "AAAAAAGJ299bbBC088I="
+							}
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+RxwxElJsw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#d6adff",
+							"font": "Arial;22;0",
+							"left": 536,
+							"top": 104,
+							"width": 233,
+							"height": 49,
+							"text": "Talent Development",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+UdYxEsf94=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ebeb69",
+							"font": "Arial;22;0",
+							"left": 56,
+							"top": 104,
+							"width": 169,
+							"height": 48,
+							"text": "Talent Client",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+VO2BEwzR0=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#d1ffa3",
+							"font": "Arial;22;0",
+							"left": 832,
+							"top": 96,
+							"width": 241,
+							"height": 56,
+							"text": "Talent Tech-Solution",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+Z5VxE5dpc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ffdf82",
+							"font": "Arial;22;0",
+							"left": 264,
+							"top": 104,
+							"width": 185,
+							"height": 49,
+							"text": "Talent Acquisition",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+dgahFJI5A=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#e2e2e2",
+							"font": "Arial;22;0",
+							"left": 1112,
+							"top": 40,
+							"width": 201,
+							"height": 56,
+							"text": "Talent Business Partner",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+kVzhFnCaM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 64,
+							"top": 272,
+							"width": 161,
+							"height": 44,
+							"text": "Gerer la relation client",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+nWShFtA2s=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 64,
+							"top": 464,
+							"width": 161,
+							"height": 49,
+							"text": "Traiter les demandes client",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2+umoBGC1vw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 64,
+							"top": 368,
+							"width": 161,
+							"height": 49,
+							"text": "Contractualiser une offre",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAGJ2/DFTxHQOzA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ffeaad",
+							"font": "Arial;13;0",
+							"left": 256,
+							"top": 256,
+							"width": 201,
+							"height": 273
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAGJ2/DUmRHT05c=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#d6adff",
+							"font": "Arial;13;0",
+							"left": 472,
+							"top": 256,
+							"width": 321,
+							"height": 273
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAGJ2/DhDxHWvoI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#d1ffa3",
+							"font": "Arial;13;0",
+							"left": 816,
+							"top": 256,
+							"width": 273,
+							"height": 273
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "AAAAAAGJ2/Dq0xHZl4k=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#e2e2e2",
+							"font": "Arial;13;0",
+							"left": 1120,
+							"top": 256,
+							"width": 193,
+							"height": 273
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/KfVxHt8TE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 264,
+							"top": 272,
+							"width": 175.4375,
+							"height": 51,
+							"text": "Recruter un consultant/collaboraeur",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/WAAhILNoo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 264,
+							"top": 376,
+							"width": 177,
+							"height": 44,
+							"text": "Accueillir le nouvel employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/Yw5BIYuXc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 264,
+							"top": 464,
+							"width": 177,
+							"height": 48,
+							"text": "Intégrer le nouvel employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/dgIRIrkMA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 488,
+							"top": 272,
+							"width": 97,
+							"height": 60,
+							"text": "Suivi d'un employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/fytRIvNDQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 544,
+							"top": 360,
+							"width": 193,
+							"height": 49,
+							"text": "Evaluer les compétence d'un employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/gaOBIzQPE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 488,
+							"top": 448,
+							"width": 145,
+							"height": 64,
+							"text": "Gérer la formation d'un employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/if7hI3gWc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 648,
+							"top": 448,
+							"width": 129,
+							"height": 65,
+							"text": "Gérer le départ d'un employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/jlTRI79Pc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 608,
+							"top": 272,
+							"width": 161,
+							"height": 60,
+							"text": "Identifier les attentes de l'employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/5dWhKxb+4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 1136,
+							"top": 472,
+							"width": 161,
+							"height": 44,
+							"text": "Gérer la sécurité de l'information",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2/7SNBK6gsc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 1136,
+							"top": 368,
+							"width": 161,
+							"height": 33,
+							"text": "Gérer les finances",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ2//NKhK+P1I=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 1136,
+							"top": 320,
+							"width": 161,
+							"height": 33,
+							"text": "Gérer les employé",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3AIVEhL7y5M=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#e2e2e2",
+							"font": "Arial;18;0",
+							"left": 1120,
+							"top": 152,
+							"width": 81,
+							"height": 33,
+							"text": "RH",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3AJTaxMDpWc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#e2e2e2",
+							"font": "Arial;18;0",
+							"left": 1120,
+							"top": 104,
+							"width": 81,
+							"height": 38,
+							"text": "Finance",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3ANw0xMNpeA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#e2e2e2",
+							"font": "Arial;18;0",
+							"left": 1208,
+							"top": 104,
+							"width": 97,
+							"height": 38,
+							"text": "Direction",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3AcAoRNL9wo=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 1136,
+							"top": 272,
+							"width": 161,
+							"height": 33,
+							"text": "Piloter l'entreprise",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3AiNqhNpzEs=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#e2e2e2",
+							"font": "Arial;18;0",
+							"left": 1208,
+							"top": 152,
+							"width": 97,
+							"height": 33,
+							"text": "Ops Office",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3AsQtBOiy6s=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 944,
+							"top": 272,
+							"width": 137,
+							"height": 49,
+							"text": "Piloter un projet",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3As11xOmXno=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 840,
+							"top": 336,
+							"width": 225,
+							"height": 49,
+							"text": "Réaliser un projet technique",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3Au+DxOq/LE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 824,
+							"top": 272,
+							"width": 97,
+							"height": 49,
+							"text": "Suivre un projet",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3AyhxhO2PgA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 840,
+							"top": 400,
+							"width": 225,
+							"height": 49,
+							"text": "Réaliser une prestation informatique",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3A042xO9K6I=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 840,
+							"top": 464,
+							"width": 225,
+							"height": 44,
+							"text": "Améliorer les processus d'un projet",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGJ3A3o/BPQ6GI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;16;0",
+							"left": 1136,
+							"top": 416,
+							"width": 162.046875,
+							"height": 44,
+							"text": "Faire du Support informatique",
+							"horzAlign": 2,
+							"vertAlign": 5
+						}
+					]
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGJ299bbBCxHJ4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Métier"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGJ29+9TBDNVn4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Infrastructure"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGJ2+AsQxDpo8U=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Fonctionnel"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGJ297JqA/teZY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Applicatif"
+				}
+			]
+		}
+	]
+}
